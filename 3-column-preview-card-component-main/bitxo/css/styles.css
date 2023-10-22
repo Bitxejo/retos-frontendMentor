@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    box-sizing: border-box;
+    width: 1440px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 700px;
+}
+
+svg{
+    margin: 40px 40px 20px;
+}
+.box h1{
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.box p{
+    margin-top: 60px;
+    margin-left: 40px;
+    line-height: 40px;
+    color: aliceblue;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    grid-column: 1/2;
+}
+.box.sedans a{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    grid-column: 2/3;
+}
+.box.suvs a{
+    color: hsl(184, 100%, 22%);
+
+}
+.luxury{
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px ;
+    grid-column: 3/4;
+}
+.box a{
+    color:  hsl(179, 100%, 13%);
+
+}
+.box a{
+    text-decoration: none;
+}
+.buttom{
+    width:200px;
+    margin-top: 150px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: white;
+    margin-left: 40px;
+}
+.luxury p{
+    letter-spacing: 3px;
+}

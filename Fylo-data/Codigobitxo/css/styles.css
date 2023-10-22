@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    box-sizing: border-box;
+    width: 1440px;
+    margin: auto;
+    margin-top: 300px;
+   
+   
+}
+.rightcard{
+    background-color: rgb(6, 132, 243);
+    grid-column: 2/6;
+    grid-row: 1/4 ;
+    text-align: start;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 15px ;
+    font-size: x-large;
+    color: beige;
+    
+
+    
+
+}
+.leftcard{
+    background-color: hsl(228, 56%, 26%);
+    grid-column: 1/2;
+    grid-row: 1/4;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 5px 50px 5px 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto ;
+    justify-content: left;
+    align-items: center;   
+}
+svg{
+    width:50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.number{
+    grid-column: 5/6;
+    grid-row: 1/1;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0px 10px;
+}
+.icons{
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 3/4;
+
+
+
+}
+
+.icons svg{
+    background-color:  hsl(229, 57%, 11%);
+    padding-left: 15px;
+    padding-top: 8px;
+    border-radius: 5px;
+    
+}
+.number h1{
+    color: black;
+    text-align: center;
+}
+.gb{
+    color: darkgrey;
+    font-size: large;
+
+}
+ div input{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    
+}
+.gyga{
+    float: right;
+}
+footer{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 64px;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration-line: overline underline;
+    color: #db5555;
+}

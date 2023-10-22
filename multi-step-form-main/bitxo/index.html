@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Multi-step form</title>
+  <link href="../bitxo/css/styles.css" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="card1">
+            <ul>
+                <li><a href="#" style="background-color: aqua;">1</a><h4>STEP 1</h4><p>YOUR INFO</p></li>           
+                <li><a href="./step2monthly.html" target="_blank">2</a><h4>STEP 2</h4><p>SELECT PLAN</p></li>
+                <li><a href="./step3monthly.html">3</a><h4>STEP3</h4><p>ADD-ONS</p></li>
+                <li><a href="./step4monthly.html">4</a><h4>STEP4</h4><p>SUMAMRY</p></li>
+            </ul>         
+    </div>
+    <div class="card2">
+        <h1>Personal info</h1>
+        <h2>Please provide your name, email address, and phone number</h2>
+        <form>
+            <label for="name">Name :</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="e.g. satan :"  required="true"> 
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input type="email" id="email"  name="email" placeholder="e.g. satan666@hotline.es" required="true">
+            <br>
+            <!-- COMO HACER QUE SE DESPLEGUEN  LOS PREFIJOS Y DEMAS  -->
+            <label for="telephon">Phone Number</label>
+            <br>
+            <input type="tel" name="telephon" id="telephon" placeholder="e.g. +1234 567 890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required ="true" title="Debes poner el prefijo de tu pais">  
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="buttom">
+      <ul>
+        <li><a href="./step2monthly.html" target="_blank">Next Step</a></li>
+      </ul>
+    </div>
+</div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mr+Dafoe&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float|fire|fire-animation|neon");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:  hsl(30, 38%, 92%);
+    
+}
+.wrapper{
+    display: flex;
+    box-sizing: border-box;
+    width: 1440px;
+    margin: auto;
+
+    
+}
+.left_card{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+img{
+    border-radius: 15px 0px 0px 15px;
+    
+    
+}
+.right_card{
+    background-color: white;
+    display: grid;
+    justify-content: space-between;
+    font-family: [Montserrat] ;
+    font-weight: 500;
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+}
+h2{
+    color: grey;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+h1{
+    color: rgb(6, 6, 6);
+    font-size: 4em;
+    text-align: start;
+    margin-left: 10%;
+}
+h3{
+    text-align: start;
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 10%;
+    
+}
+.buttom{
+    text-align: center;
+    background-color:green ;
+    margin-bottom: 40px ;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+input{
+    color: white;
+    border:none;
+    background-color: green;
+}
+span{
+    text-decoration: line-through;
+    font-size: 50px;
+    text-align: end;
+    color: black;
+}
+footer {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10px;
+    text-decoration: underline;
+    text-align: start;
+
+    
+}
+
+

@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mr+Dafoe&family=New+Rocker&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float|fire|fire-animation|neon");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(212, 45%, 89%) ;
+}
+.wrapper{
+    box-sizing: border-box;
+    display: grid;
+    width: 1440px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.qrcode{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+
+}
+img{
+    border-radius: 20px;
+}
+.subtittle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+h2{
+    color: darkgray;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    text-decoration-line: underline overline;
+}

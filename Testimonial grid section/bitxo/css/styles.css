@@ -1,0 +1,183 @@
+
+@import url("(https://fonts.google.com/specimen/Barlow+Semi+Condensed)");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background: linear-gradient(hsl(0, 0%, 81%) ,hsl(210, 46%, 95%) );
+}
+.wrapper{
+    box-sizing: border-box;
+    width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    
+
+
+}
+.box{
+
+    margin: 5px;
+    padding: 5px;
+}
+.box.daniel{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    line-height: 30px;
+}
+.box.daniel h3 {
+    color: white;
+    margin: 5px 80px;
+    line-height: 20px;
+}
+.box.daniel h4{
+    color: white;
+    opacity: 50%;
+    margin: 5px  80px;
+}
+.box.daniel h2{
+    color: rgb(255, 255, 255 );
+    margin: 10px 5px;
+}
+.box.daniel p{
+    color: white;
+    opacity: 50%;
+    margin: 10px 5px;
+}
+.box.jonathan{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+.box.jonathan h3{
+    color: white;
+    margin: 5px 80px;
+    line-height: 20px;
+
+}
+.box.jonathan h4{
+    color: white;
+    opacity: 50%;
+    line-height: 20px;
+    margin: 5px 80px;
+}
+.box.jonathan h2{
+    color: rgb(255, 255, 255 );
+    margin: 30px  20px;
+    line-height: 30px;
+}
+.box.jonathan p{
+    color: white;
+    opacity: 50%;
+    margin: 45px 20px;
+    line-height: 40px;
+}
+
+
+
+.box.kira{
+
+    grid-column: 4/5;
+    grid-row: 1/3;
+    background-color: white;
+    border-radius: 10px;   
+}
+.box.kira h3{
+    color: grey;
+    margin: 5px 80px;
+    line-height: 30px;
+}
+.box.kira h2{
+    color: grey;
+    margin: 30px 20px;
+    line-height: 30px;
+
+}
+.box.kira h4{
+    color: grey;
+    opacity: 50%;
+    margin: 5px 80px ;
+}
+.box.kira p{
+    color: grey;
+    opacity: 50%;
+    margin: 50px 20px ;
+    line-height: 30px;
+}
+.box.jeanette h2{
+    color: grey;
+    margin: 30px 20px;
+    line-height: 30px;
+}
+.box.jeanette h3{
+    color: grey;
+    margin: 5px 80px;
+    line-height: 30px;
+}
+.box.jeanette h4{
+    color: grey;
+    opacity: 50%;
+    margin: 5px 80px ;
+}
+.box.jeanette p{
+   color: grey;
+    opacity: 50%;
+    margin: 50px 20px ;
+    line-height: 30px;
+}
+.box.jeanette{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.box.patrick{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+}
+.box.patrick h2{
+    color: rgb(255, 255, 255 );
+    margin: 40px 10px;
+    line-height: 30px;
+
+}
+.box.patrick h3{
+    color: white;
+    margin: 5px 80px;
+    line-height: 20px;
+}
+.box.patrick h4{
+    color: white;
+    opacity: 50%;
+    line-height: 20px;
+    margin: 5px 80px;
+}
+.box.patrick  p{
+    color: white;
+    opacity: 50%;
+    margin: 40px 10px;
+    line-height: 40px;
+}
+
+
+img{
+    border-radius: 50px ;
+    border: 4px double white;
+    float: left;
+
+}
+
+
+    
+
+
